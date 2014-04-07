@@ -1,0 +1,11 @@
+/* CSS Document */
+* {box-sizing: border-box;}
+body { margin: 0; padding: 0; font-size: 1.5em; margin: auto; font-family: sans-serif; }
+
+.column, .full-width {width: 96%; margin: 5px 2%; background: #666; padding: 0; float: left; }
+.sub-column { width: 46%; margin: 5px 2%; background: yellow; display: inline-block; padding: 0; float: left;}
+
+@media (min-width: 700px) {
+    .column { width: 46%; }
+    .sub-column {width: 21%; }
+}
