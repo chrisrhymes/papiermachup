@@ -1,9 +1,14 @@
 /* CSS Document */
 * {box-sizing: border-box;}
 body { margin: 0; padding: 0; font-size: 1.5em; margin: auto; font-family: sans-serif; }
+h1, h2 {font-family: Lobster, cursive; text-shadow: 2px 2px #dc143c;}
 
-.column, .full-width {width: 96%; margin: 5px 2%; background: #666; padding: 0; float: left; }
-.sub-column { width: 46%; margin: 5px 2%; background: yellow; display: inline-block; padding: 0; float: left;}
+
+.column, .full-width {width: 96%; margin: 5px 2%;  padding: 0; float: left; border-top: 1px solid #dc143c;}
+.sub-column { width: 46%; margin: 5px 2%;  display: inline-block; padding: 0; float: left; border-top: 1px solid #dc143c;}
+
+.red {background: #ff6040;}
+.grey {background: #eee;}
 
 @media (min-width: 700px) {
     .column { width: 46%; }
